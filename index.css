@@ -251,7 +251,7 @@ ul li:hover ul.dropdown {
 .btnwelcome {
     width: 60%;
 
-    background: rgb(23, 23, 71);
+    background: rgb(2, 2, 52);
     
     outline: none;
     border-radius: 20px;
@@ -442,7 +442,7 @@ ol {
 .btnwelcome {
     width: 60%;
 
-    background: blue;
+    background: rgb(2, 2, 58);
     
     outline: none;
     border-radius: 20px;
@@ -503,7 +503,7 @@ ol {
         font-weight: 500;
         margin: 30px;
         transition: 3s;
-    
+
         
     }
     .lecturer {
