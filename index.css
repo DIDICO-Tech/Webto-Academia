@@ -491,9 +491,9 @@ ol {
     }
     
     .btnwelcome {
-        width: 50%;
+        width: 40%;
     
-        background: rgb(172, 172, 203);
+        background: rgb(0, 0, 100);
         
         outline: none;
         border-radius: 20px;
