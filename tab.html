@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="tab.css">
+    <title>Tab</title>
+</head>
+<body>
+    
+    <ul>
+        <li data-tab-target="#home">Home</li>
+        <li data-tab-target="#pricing">Pricing</li>
+        <li data-tab-target="#about">About</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="home"  data-tab-content>
+            <h1>Home</h1>
+            <p> Welcome Home</p>
+        </div>
+        <div id="pricing"  data-tab-content>
+            <h1>Pricing</h1>
+            <p>Our Prices are affordable</p>
+        </div>
+        <div id="about"  data-tab-content>
+            <h1>About</h1>
+            <p>Read more about us</p>
+        </div>
+    </div>
+
+
+    <div class="tabs">
+        <div class="tab2">
+            <button class="tabsbutton .tabsbutton--active" data-for-tab="1">Tab #1</button>
+            <button class="tabsbutton" data-for-tab="1">Tab #2</button>
+            <button class="tabsbutton" data-for-tab="1">Tab #3</button>
+        </div>
+
+        <div class="tabs-content tabs-content--active" data-tab="1">
+            <h1>Tab #1</h1>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis fugiat alias consequatur magni obcaecati odio, assumenda perspiciatis, exercitationem, quo amet dolor. Hic architecto numquam modi omnis vitae, quos quibusdam.</h2>
+    </div>
+    <div class="tabs-content tabs-content--active" data-tab="2">
+        <h1>Tab #2</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis fugiat alias consequatur magni obcaecati odio, assumenda perspiciatis, exercitationem, quo amet dolor. Hic architecto numquam modi omnis vitae, quos quibusdam.</h2>
+</div>
+<div class="tabs-content tabs-content--active" data-tab="3">
+    <h1>Tab #3</h1>
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis fugiat alias consequatur magni obcaecati odio, assumenda perspiciatis, exercitationem, quo amet dolor. Hic architecto numquam modi omnis vitae, quos quibusdam.</h2>
+</div>
+
+
+<script>
+    function setupTabs () {
+        document.querySelectorAll(".tabs-content").forEach(button => {
+            button.addEventListener("click", () => {
+                const sideBar = button.parentElement:
+            }):
+        }):
+        }
+</script>
+</body>
+</html>

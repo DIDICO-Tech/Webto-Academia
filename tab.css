@@ -1,0 +1,62 @@
+
+[ data-tab-content] {
+    display:;
+}
+
+#active[ data-tab-content] {
+    display:block;
+}
+
+
+
+
+
+.tabs {
+    border: 1px solid red;
+    display:flex;
+}
+
+.tab2 {
+    width: 125px;
+    flex-shrink: 0;
+    background: green;
+}
+
+.tabsbutton {
+    display: block;
+    padding: 10px;
+    background: none;
+    border:none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+.tabsbutton:active {
+    background: black;
+}
+
+.tabsbutton:not(:last-of-type) {
+    border-bottom: 1px solid blue;
+}
+
+.tabsbutton--active {
+    font-weight: bold;
+    border-right: 2px solid red;
+    background: purple;
+}
+
+.tabs-content {
+    padding: 15px;
+    font-size: .6cm;
+    display: none;
+}
+
+.tabs-content--active {
+    display:block;
+}
+
+.tabs-content > :first-child {
+    margin-top: 0;
+}
+
